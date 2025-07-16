@@ -33,16 +33,16 @@
 До запуска файла `main_selectel.py`:
 
 *   Cодержимое папки проекта в интерпретаторе “PyCharm”.
-![before_the_start_pycharm.png](1-before_the_start_pycharm.png)
+![before_the_start_pycharm.png](screenshots/1-before_the_start_pycharm.png)
 *   Cодержимое контейнера объектного хранилища.
-![before_the_start_selectel.png](2-before_the_start_selectel.png) 
+![before_the_start_selectel.png](object_storages_S3/screenshots/2-before_the_start_selectel.png) 
 
 После запуска файла `main_selectel.py`:
 
 *   Cодержимое папки проекта в интерпретаторе “PyCharm” и демонстрация работы методов класса.
-![after_start_pycharm.png](3-after_start_pycharm.png) 
+![after_start_pycharm.png](object_storages_S3/screenshots/3-after_start_pycharm.png) 
 *  Cодержимое контейнера объектного хранилища после запуска файла `main_selectel.py`. 
-![after_start_selectel.png](4-after_start_selectel.png)
+![after_start_selectel.png](object_storages_S3/screenshots/4-after_start_selectel.png)
 
 
 Также произведена настройка bucket policy, версионирования и lifecycle policy.
@@ -72,62 +72,62 @@
 Демонстрация настройки bucket policy:
 
 *   Cостав сервисных пользователей.
-![project_users.png](5-project_users.png)
+![project_users.png](object_storages_S3/screenshots/5-project_users.png)
 *   Cписок прав администратора объектного хранилища.
-![record_editor.png](6-record_editor.png)
+![record_editor.png](object_storages_S3/screenshots/6-record_editor.png)
 *   Cписок прав для остальных пользователей.
-![all_read.png](7-all_read.png)
+![all_read.png](object_storages_S3/screenshots/7-all_read.png)
 
 Для подключения версионирования в бакете в конфигурации контейнера в разделе «Защита данных» - «Версионирование» выбираем «Включено»:
-*   ![versioning_is_enabled.png](8-versioning_is_enabled.png)
+*   ![versioning_is_enabled.png](object_storages_S3/screenshots/8-versioning_is_enabled.png)
 
 Все версии отличаются между собой по своему ID. Чтобы скачать предыдущую версию объекта, нужно ее сначала восстановить. 
 Для этого проваливаемся в объект и выбираем версию для восстановления.
 
 Демонстрация наличия нескольких версий объекта:
-*   ![version_object.png](9-version_object.png)
+*   ![version_object.png](object_storages_S3/screenshots/9-version_object.png)
 
 Шаг 1. Выбираем версию для восстановления
-*   ![recovery_step1.png](10-recovery_step1.png)
+*   ![recovery_step1.png](object_storages_S3/screenshots/10-recovery_step1.png)
 
 Шаг 2. Подтверждаем восстановление необходимой версии
-*   ![recovery_step2.png](11-recovery_step2.png])
+*   ![recovery_step2.png](object_storages_S3/screenshots/11-recovery_step2.png])
 
 Шаг 3. Получение подтверждения восстановления необходимой версии
-*   ![recovery_step3.png](12-recovery_step3.png)
+*   ![recovery_step3.png](object_storages_S3/screenshots/12-recovery_step3.png)
 
 
 После смены версии объекта можно увидеть, как поменялся ID версии файла на ID выбранной версии.
 Выбираем файл с новой версией, нажимаем на три точки в правом верхнем углу окна и выбираем «Скачать»:
-*   ![new_version_object.png](13-new_version_object.png)
+*   ![new_version_object.png](object_storages_S3/screenshots/13-new_version_object.png)
 
 Для настройки lifecycle policy необходимо перейти по следующему пути:
 «Контейнеры» - выбрать контейнер - «Конфигурация» - в разделе «Лимиты объектов контейнера» изменить «Время хранения»:
-*   ![lifecycle_policy.png](14-lifecycle_policy.png`)
+*   ![lifecycle_policy.png](object_storages_S3/screenshots/14-lifecycle_policy.png`)
 
 
 ## Описание скриншотов (уточненное)
 
 Папка `screenshots` содержит скриншоты, подтверждающие успешное выполнение задания:
 
-*   [`before_the_start_pycharm.png`](screenshots/1-before_the_start_pycharm.png) : Содержимое папки проекта до запуска `main_selectel.py`.
-*   [`before_the_start_selectel.png`](screenshots/2-before_the_start_selectel.png): Содержимое контейнера объектного хранилища до запуска `main_selectel.py`.
-*   [`after_start_pycharm.png`](screenshots/3-after_start_pycharm.png):  Содержимое папки проекта и вывод в PyCharm после запуска `main_selectel.py`, демонстрирующий работу методов `list_files` и `file_exists`.
-*   [`after_start_selectel.png`](screenshots/4-after_start_selectel.png):  Содержимое контейнера объектного хранилища после запуска `main_selectel.py`.
-*   [`project_users.png`](screenshots/5-project_users.png): Список пользователей Object Storage.
-*   [`record_editor.png`](screenshots/6-record_editor.png):  Настройка прав для администратора Object Storage (сервисного пользователя).
-*   [`all_read.png`](screenshots/7-all_read.png): Настройка прав на чтение для всех.
-*   [`versioning_is_enabled.png`](screenshots/8-versioning_is_enabled.png): Включение версионирования в бакете в конфигурации контейнера в разделе «Защита данных».
-*   [`version_object.png`](screenshots/9-version_object.png):  Демонстрация наличия нескольких версий объекта.
-*   [`recovery_step1.png`](screenshots/10-recovery_step1.png): Выбор версии объекта для восстановления.
-*   [`recovery_step2.png`](screenshots/11-recovery_step2.png): Подтверждение восстановления выбранной версии.
-*   [`recovery_step3.png`](screenshots/12-recovery_step3.png): Подтверждение восстановления необходимой версии.
-*   [`new_version_object.png`](screenshots/13-new_version_object.png):  Текущая версия объекта после восстановления предыдущей версии.
-*   [`lifecycle_policy.png`](screenshots/14-lifecycle_policy.png): Настройка lifecycle policy (время хранения объектов).
+*   [before_the_start_pycharm.png](object_storages_S3/screenshots/1-before_the_start_pycharm.png) : Содержимое папки проекта до запуска `main_selectel.py`.
+*   [before_the_start_selectel.png](object_storages_S3/screenshots/2-before_the_start_selectel.png): Содержимое контейнера объектного хранилища до запуска `main_selectel.py`.
+*   [after_start_pycharm.png](object_storages_S3/screenshots/3-after_start_pycharm.png):  Содержимое папки проекта и вывод в PyCharm после запуска `main_selectel.py`, демонстрирующий работу методов `list_files` и `file_exists`.
+*   [after_start_selectel.png](screenshots/4-after_start_selectel.png):  Содержимое контейнера объектного хранилища после запуска `main_selectel.py`.
+*   [project_users.png](object_storages_S3/screenshots/5-project_users.png): Список пользователей Object Storage.
+*   [record_editor.png](object_storages_S3/screenshots/6-record_editor.png):  Настройка прав для администратора Object Storage (сервисного пользователя).
+*   [all_read.png](object_storages_S3/screenshots/7-all_read.png): Настройка прав на чтение для всех.
+*   [versioning_is_enabled.png](object_storages_S3/screenshots/8-versioning_is_enabled.png): Включение версионирования в бакете в конфигурации контейнера в разделе «Защита данных».
+*   [version_object.png](object_storages_S3/screenshots/9-version_object.png):  Демонстрация наличия нескольких версий объекта.
+*   [recovery_step1.png](object_storages_S3/screenshots/10-recovery_step1.png): Выбор версии объекта для восстановления.
+*   [recovery_step2.png](object_storages_S3/screenshots/11-recovery_step2.png): Подтверждение восстановления выбранной версии.
+*   [recovery_step3.png](object_storages_S3/screenshots/12-recovery_step3.png): Подтверждение восстановления необходимой версии.
+*   [new_version_object.png](object_storages_S3/screenshots/13-new_version_object.png):  Текущая версия объекта после восстановления предыдущей версии.
+*   [lifecycle_policy.png](object_storages_S3/screenshots/14-lifecycle_policy.png): Настройка lifecycle policy (время хранения объектов).
 
 ## Запуск
 
-Для запуска демонстрации используется файл [`main_selectel.py`](main_selectel.py).
+Для запуска демонстрации используется файл [main_selectel.py](object_storages_S3/main_selectel.py).
 
 
 ## Архитектура проекта
