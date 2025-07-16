@@ -30,19 +30,21 @@
 
 В проекте представлены следующие скриншоты:
 
-До запуска файла `main_selectel.py`:
+* До запуска файла `main_selectel.py`:
 
-*   Cодержимое папки проекта в интерпретаторе “PyCharm”.
+Cодержимое папки проекта в интерпретаторе “PyCharm”:
 ![before_the_start_pycharm.png](screenshots/1-before_the_start_pycharm.png)
-*   Cодержимое контейнера объектного хранилища.
-![before_the_start_selectel.png](object_storages_S3/screenshots/2-before_the_start_selectel.png) 
 
-После запуска файла `main_selectel.py`:
+Cодержимое контейнера объектного хранилища:
+![before_the_start_selectel.png](screenshots/2-before_the_start_selectel.png) 
 
-*   Cодержимое папки проекта в интерпретаторе “PyCharm” и демонстрация работы методов класса.
-![after_start_pycharm.png](object_storages_S3/screenshots/3-after_start_pycharm.png) 
-*  Cодержимое контейнера объектного хранилища после запуска файла `main_selectel.py`. 
-![after_start_selectel.png](object_storages_S3/screenshots/4-after_start_selectel.png)
+* После запуска файла `main_selectel.py`:
+
+Cодержимое папки проекта в интерпретаторе “PyCharm” и демонстрация работы методов класса:
+![after_start_pycharm.png](screenshots/3-after_start_pycharm.png) 
+
+Cодержимое контейнера объектного хранилища после запуска файла `main_selectel.py`:
+![after_start_selectel.png](screenshots/4-after_start_selectel.png)
 
 
 Также произведена настройка bucket policy, версионирования и lifecycle policy.
