@@ -1,0 +1,21 @@
+2025-07-16 22:30:45,304 - S3 - INFO - Found 1 objects in page
+2025-07-16 22:30:45,304 - S3 - INFO - Object uploaded_demo_test.csv - Size: 1311227 bytes
+2025-07-16 22:30:45,305 - S3 - INFO - Total size calculated: 1311227 bytes
+2025-07-16 22:30:45,305 - S3 - INFO - Bucket size: 1.25 MB
+2025-07-16 22:31:38,415 - S3 - INFO - Sent: uploaded_demo_test.csv
+2025-07-16 22:31:38,755 - S3 - INFO - Found 1 objects in page
+2025-07-16 22:31:38,755 - S3 - INFO - Object uploaded_demo_test.csv - Size: 1311227 bytes
+2025-07-16 22:31:38,755 - S3 - INFO - Total size calculated: 1311227 bytes
+2025-07-16 22:31:38,755 - S3 - INFO - Bucket size: 1.25 MB
+2025-07-16 22:31:45,197 - S3 - INFO - Local target not specified, using: uploaded_demo_test.csv
+2025-07-16 22:31:45,203 - S3 - INFO - Retrieved: uploaded_demo_test.csv
+2025-07-16 22:31:45,787 - S3 - INFO - Found 1 objects in page
+2025-07-16 22:31:45,787 - S3 - INFO - Object uploaded_demo_test.csv - Size: 1311227 bytes
+2025-07-16 22:31:45,787 - S3 - INFO - Total size calculated: 1311227 bytes
+2025-07-16 22:31:45,788 - S3 - INFO - Final bucket size: 1.25 MB
+2025-07-16 22:31:46,178 - S3 - INFO - List of files: ['uploaded_demo_test.csv']
+2025-07-16 22:31:46,178 - S3 - INFO - Files in bucket: uploaded_demo_test.csv
+2025-07-16 22:31:46,538 - S3 - INFO - File 'uploaded_demo_test.csv' exists.
+2025-07-16 22:31:46,538 - S3 - INFO - File 'uploaded_demo_test.csv' exists: True
+2025-07-16 22:31:46,978 - S3 - INFO - File 'non_existent_file.csv' does not exist.
+2025-07-16 22:31:46,978 - S3 - INFO - File 'non_existent_file.csv' exists: False
