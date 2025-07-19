@@ -26,6 +26,7 @@
 ### До запуска файла `main_selectel.py`
 
 До запуска файла `main_selectel.py` содержимое контейнера объектного хранилища отсутствует.
+
 Cодержимое папки проекта в интерпретаторе “PyCharm”:
 ![before_the_start_pycharm.png](screenshots/1-before_the_start_pycharm.png)
 
